@@ -83,3 +83,14 @@ Hero Section Styles
 .hero-arrow-icon {
   margin-left: 10px;
 }
+/*
+Sponser section Styles
+*/
+.sponser-logo {
+  max-width: 1110px;
+  margin: 100px auto;
+  justify-content: space-around;
+  padding: 43px 0;
+  border-top: 0.5px solid #c0ccda;
+  border-bottom: 0.5px solid #c0ccda;
+}
