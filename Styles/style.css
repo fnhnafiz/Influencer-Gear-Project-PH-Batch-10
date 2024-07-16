@@ -90,6 +90,8 @@ Sponser section Styles
   max-width: 1110px;
   margin: 100px auto;
   justify-content: space-around;
+  gap: 23px;
+  flex-wrap: wrap;
   padding: 43px 0;
   border-top: 0.5px solid #c0ccda;
   border-bottom: 0.5px solid #c0ccda;
@@ -99,7 +101,6 @@ Popular Collection Stylex
 */
 .popular-collection {
   max-width: 1047px;
-  height: 1662px;
   margin: 100px auto;
 }
 .see-more-btn {
@@ -257,7 +258,151 @@ footer {
 Media Quaries
 */
 @media screen and (max-width: 576px) {
+  html {
+    font-size: 10px;
+  }
+  .navbar {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 25px auto;
+  }
   .navbar ul {
     display: none;
+  }
+  .toggle-bar .menu {
+    font-size: 1.6rem;
+  }
+  .brand-name {
+    font-size: 1.6rem;
+  }
+  .cart-iconee .cart-icon {
+    font-size: 1.6rem;
+  }
+  .hero-images {
+    max-width: 257px;
+  }
+  .hero-images img {
+    width: 100%;
+  }
+  .hero-container {
+    flex-direction: column-reverse;
+    gap: 30px;
+  }
+  .hero-content {
+    text-align: center;
+  }
+  .hero-title {
+    font-size: 2.8rem;
+    line-height: 42px;
+  }
+  .hero-description {
+    font-size: 1.4rem;
+    line-height: 21px;
+    padding: 0 40px;
+  }
+  .hero-btn {
+    font-size: 1.6rem;
+    line-height: 24px;
+  }
+  .sponser-section {
+    margin: 50px auto;
+  }
+  .sponser-logo {
+    border: none;
+    padding: 0 50px;
+  }
+  .sponser-logo img {
+    width: 60px;
+  }
+  .popular-collection {
+    margin: 50px 0;
+  }
+  .collection-title {
+    font-size: 1.6rem;
+    line-height: 24px;
+  }
+  .collection-images {
+    margin-top: 20px;
+    grid-template-columns: 1fr;
+  }
+  .card h4 {
+    font-size: 2.8rem;
+    font-weight: 700;
+    line-height: 40px;
+  }
+  .card .price {
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 150%;
+  }
+  .rating-5-star .five-star {
+    font-size: 1rem;
+  }
+  .rating-5-star p {
+    font-size: 1.4rem;
+    line-height: 22px;
+    letter-spacing: 0.1px;
+  }
+  .card-description p {
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 143%;
+    letter-spacing: 1.8%;
+  }
+  .see-more-btn {
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 24px;
+  }
+  .see-more-btn .see-more-arrow {
+    font-size: 1.6rem;
+    margin-right: 20px;
+  }
+  .feature-producs {
+    margin: 50px auto;
+    padding: 0 50px;
+  }
+  .feature-container {
+    flex-direction: column-reverse;
+    /* padding: 0 30px; */
+    gap: 30px;
+  }
+  .feature-container img {
+    width: 100%;
+  }
+  .feature-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .feature-title {
+    text-align: center;
+    font-size: 2.4rem;
+    line-height: 36px;
+  }
+  .feature-description {
+    font-size: 1.6rem;
+    text-align: center;
+    padding: 0;
+  }
+  .feature-btn {
+    font-size: 1.6rem;
+  }
+  .feature-arrow {
+    font-size: 1.6rem;
+  }
+  .footer-container {
+    gap: 10px;
+  }
+  .footer-container h4 {
+    font-size: 1.6rem;
+    line-height: 24px;
+  }
+  .footer-container p {
+    font-size: 1.2rem;
+    line-height: 24px;
   }
 }
