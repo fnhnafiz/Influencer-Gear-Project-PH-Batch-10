@@ -2,4 +2,84 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+/*
+Shared styles
+*/
+.display-flex {
+  display: flex;
+}
+nav {
+  max-width: 1200px;
+  height: 52px;
+  margin: 50px auto;
+  justify-content: space-between;
+  align-items: center;
+}
+.brand-name {
+  font-size: 1.5rem;
+  color: rgb(58, 58, 58);
+
+  font-weight: 700;
+  line-height: 36px;
+}
+ul li {
+  list-style: none;
+}
+ul > li > a {
+  text-decoration: none;
+  margin-left: 34px;
+  color: rgb(58, 58, 58);
+
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 24px;
+}
+.nav-icon {
+  margin-left: 34px;
+  padding-top: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+/*
+Hero Section Styles
+*/
+.hero-container {
+  max-width: 1200px;
+  align-items: center;
+  margin: 0 auto;
+  gap: 133px;
+}
+.hero-images {
+  background-image: url(../images/Circle\ design.svg);
+  background-position: center;
+  background-size: cover;
+}
+.hero-title {
+  color: rgb(58, 58, 58);
+  font-size: 3.25rem;
+  font-weight: 700;
+  line-height: 70px;
+}
+.hero-description {
+  color: rgb(58, 58, 58);
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 24px;
+  margin: 16px 0;
+}
+.hero-btn {
+  padding: 10px 24px;
+  border-radius: 50px;
+  background: #e02c6d;
+  color: rgb(255, 255, 255);
+  border: none;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 24px;
+  cursor: pointer;
+}
+.hero-arrow-icon {
+  margin-left: 10px;
 }
