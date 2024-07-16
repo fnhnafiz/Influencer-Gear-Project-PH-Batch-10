@@ -325,6 +325,7 @@ Media Quaries
   .sponser-logo {
     border: none;
     padding: 0 50px;
+    margin: 0 auto;
   }
   .sponser-logo img {
     width: 60px;
@@ -417,5 +418,52 @@ Media Quaries
   .footer-container p {
     font-size: 1.2rem;
     line-height: 24px;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 992px) {
+  .navbar {
+    width: 90%;
+  }
+  ul > li > a {
+    margin-left: 20px;
+  }
+  .nav-icon {
+    margin-left: 15px;
+  }
+  .hero-container {
+    flex-direction: column;
+    margin: 0 auto;
+  }
+  .hero-content {
+    text-align: center;
+    padding: 0 130px;
+  }
+  .sponser-logo {
+    margin: 0 auto;
+  }
+  .collection-images {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0 50px;
+  }
+  .see-more-arrow {
+    margin-right: 20px;
+  }
+  .feature-container {
+    flex-direction: column;
+    margin: 0 auto;
+  }
+  .feature-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 130px;
+  }
+  .feature-title {
+    text-align: center;
+  }
+  .feature-description {
+    padding: 0;
+    text-align: center;
   }
 }
